@@ -16,13 +16,11 @@ defmodule MyScript do
   description "A description of the procedure..."
 
   step do
-    id :first_step
     title "A first step"
     instructions "The instructions to follow for the first step."
   end
 
   step do
-    id :second_step
     title "A second step"
     instructions "The instructions..."
   end
