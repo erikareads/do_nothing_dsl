@@ -36,7 +36,7 @@ defmodule DoNothingDsl.Extension do
             output: [type: :atom, required: false],
             execute: [type: :fun, required: true]
           ],
-          transform: {DoNothing.Extension, :confirm_arity, []}
+          transform: {DoNothingDsl.Extension, :confirm_arity, []}
         }
       ]
     ],
